@@ -2,11 +2,16 @@
 <html>
 <head>
 	<title>Cookie Monster</title>
+	<link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
+<body id="HomePage">
 	<h1><center>Cookie Monster<center></h1>
 	<hr>
-	<img src="cookieMonster.png" alt="oof" border=3/>
+
+<div class="container">
+	<div><img src="cookieMonster.png" alt="oof" border=3/></div>
+
+<div>
 	<p>I like cookies! Cookies are awesome!</p>
 	<p>What are the best foods in the world ranked?</p>
 	<ol>
@@ -41,6 +46,19 @@
 		<li><a href="ChocolateCookieRecipe.html">Chocolate Chip Cookie Recipe</a></li>
 		<li><a href="SnickerdoodleRecipe.html">Snickerdoodle Recipe</a></li>
 		<li><a href="SugarCookieRecipe.html">Sugar Cookie Recipe</a></li>
-	</ul>
+	</ul></div>
+
+.container {
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+	padding:3px;
+}
+.container div{
+	padding:10px;
+	margin:5px;
+	font-zise: 18px;
+	text-align: center;
+}
+
 </body>
 </html>
