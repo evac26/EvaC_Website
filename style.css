@@ -1,3 +1,14 @@
 #HomePage {
 	background-color: #C9ECFF;
+	.container {
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+	padding:3px;
+}
+.container div{
+	padding:10px;
+	margin:5px;
+	font-size: 23px;
+	text-align: left;
+}
 }
