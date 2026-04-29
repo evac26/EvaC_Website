@@ -1,6 +1,25 @@
 #HomePage {
 	background-color: #C9ECFF;
-	.container {
+}
+
+#HomePage{
+ h1, p, li, tr {
+	color: navy;
+	font-family: "Times New Roman", sans-serif;
+}}
+
+#ChocolateCookie {
+	background-color: #F4F2CD;
+}
+
+#SugarCookie {
+	background-color: #F4DFCD;
+}
+
+#SnickerdoodleCookie {
+	background-color: #F2D7CF;
+}
+.container {
 	display:grid;
 	grid-template-columns: 1fr 2fr;
 	padding:3px;
@@ -11,4 +30,11 @@
 	font-size: 23px;
 	text-align: left;
 }
-}
+
+ a:hover {
+ 	color: black;
+ }
+
+ a:visited {
+ 	color: navy;
+ }
